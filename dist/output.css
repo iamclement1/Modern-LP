@@ -503,6 +503,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -513,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[125px\] {
   width: 125px;
+}
+
+.w-\[44px\] {
+  width: 44px;
 }
 
 .max-w-\[500px\] {
@@ -549,6 +557,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .bg-hero {
@@ -594,6 +610,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .leading-7 {
@@ -706,6 +732,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: ;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:py-\[128px\] {
     padding-top: 128px;
     padding-bottom: 128px;
@@ -738,6 +768,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
