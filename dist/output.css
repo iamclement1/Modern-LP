@@ -499,6 +499,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -519,6 +523,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 1024px;
 }
 
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -529,6 +541,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .bg-hero {
@@ -564,6 +580,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .text-grey-blue {
@@ -651,6 +676,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:flex-row {
     flex-direction: row;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -680,5 +715,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 }
