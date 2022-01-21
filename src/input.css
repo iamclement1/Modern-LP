@@ -10,6 +10,14 @@
     @apply bg-strong-cyan
 }
 
+.btn-cyan:hover{
+    box-shadow: 0 10px 15px -3px hsla(171, 66%, 44%, 0.3), 0 4px 6px -2px hsla(171, 66%, 44%, .3);
+}
+
 .btn-light-blue {
     @apply bg-light-blue
+}
+
+.btn-light-blue:hover{
+    box-shadow: 0 10px 15px -3px hsla(233, 100%, 69%, 0.3), 0 4px 6px -2px hsla(233, 100%, 69%, 0.3);
 }

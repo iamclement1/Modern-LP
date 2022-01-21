@@ -522,11 +522,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
-.bg-light-blue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
-}
-
 .bg-hero {
   background-image: url('/assets/bg-header-desktop.png');
 }
@@ -580,9 +575,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.btn-cyan:hover{
+  box-shadow: 0 10px 15px -3px hsla(171, 66%, 44%, 0.3), 0 4px 6px -2px hsla(171, 66%, 44%, .3);
+}
+
 .btn-light-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+}
+
+.btn-light-blue:hover{
+  box-shadow: 0 10px 15px -3px hsla(233, 100%, 69%, 0.3), 0 4px 6px -2px hsla(233, 100%, 69%, 0.3);
 }
 
 .selection\:bg-strong-cyan *::-moz-selection {
