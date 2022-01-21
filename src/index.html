@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- imported style sheet -->
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="font-BaiJamjuree">
+    <!-- Hero -->
+    <div class="bg-hero bg-cover w-full">
+        <div class="container flex flex-col items-center py-[80px] md:py-[128px] text-center">
+            <img src="/assets/logo.svg" alt="clipboard logo" class="w-[125px] mb-14">
+            <h1 class="text-4xl md:text-5xl mb-3 text-dark-grey-blue">
+                Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="max-w-[500px] md:max-w-[700px] text-[14px] md:text-[18px] text-grey-blue mb-16">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit voluptatem dignissimos maiores. Provident, illum.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="py-3 px-7 rounded-full shadow-md text-white bg-strong-cyan">
+                    Download for iOS
+                </button>
+                <button class="py-3 px-7 rounded-full shadow-md text-white bg-light-blue">
+                    Download for Mac
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- the set of styles used with the braces [] is called arbituary style, in addition to the JIT mode -->
