@@ -482,6 +482,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -508,6 +513,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
 }
 
 .flex-col {
@@ -552,9 +561,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 14px;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-grey-blue {
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
+}
+
+.text-dark-gray-blue {
+  --tw-text-opacity: 1;
+  color: hsl(210 10% 33% / var(--tw-text-opacity));
 }
 
 .btn {
@@ -644,6 +663,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 128px;
   }
 
+  .md\:py-\[228px\] {
+    padding-top: 228px;
+    padding-bottom: 228px;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -651,5 +675,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-\[18px\] {
     font-size: 18px;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
