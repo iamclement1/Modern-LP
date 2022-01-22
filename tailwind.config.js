@@ -9,7 +9,7 @@ module.exports = {
         "grey-blue" : "hsl(201, 11%, 66%)",
       },
       backgroundImage: {
-        hero: "url('/assets/bg-header-desktop.png')",
+        hero: "url('assets/bg-header-desktop.png')",
       }
     },
     fontFamily: {

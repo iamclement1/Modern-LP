@@ -612,7 +612,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-hero {
-  background-image: url('/assets/bg-header-desktop.png');
+  background-image: url('assets/bg-header-desktop.png');
 }
 
 .bg-cover {
