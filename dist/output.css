@@ -539,20 +539,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 350px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -581,10 +573,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-12 {
@@ -636,11 +624,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 80px;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -649,16 +632,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.px-\[12px\] {
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .text-center {
@@ -804,10 +777,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 700px;
   }
 
-  .md\:max-w-\[\] {
-    max-width: ;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -819,16 +788,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:py-\[128px\] {
     padding-top: 128px;
     padding-bottom: 128px;
-  }
-
-  .md\:py-\[228px\] {
-    padding-top: 228px;
-    padding-bottom: 228px;
-  }
-
-  .md\:py-\[\] {
-    padding-top: ;
-    padding-bottom: ;
   }
 
   .md\:py-\[12px\] {
